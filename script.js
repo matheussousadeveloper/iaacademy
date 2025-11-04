@@ -5,7 +5,7 @@
 
 // === CONFIGURAÇÃO DO LINK DE PAGAMENTO ===
 // Altere esta URL para o link real de pagamento
-const PAYMENT_URL = 'https://payment-link-temporario.com/checkout';
+const PAYMENT_URL = 'https://pay.kiwify.com.br/1Ohqnl5';
 
 // === INICIALIZAÇÃO ===
 document.addEventListener('DOMContentLoaded', function() {
@@ -190,4 +190,5 @@ document.addEventListener('mouseleave', function(e) {
 
 // === LOG DE INICIALIZAÇÃO ===
 console.log('IA Academy Landing Page carregada com sucesso!');
+
 console.log('Para alterar o link de pagamento, edite a variável PAYMENT_URL no início deste arquivo.');
